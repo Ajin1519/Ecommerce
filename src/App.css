@@ -1,0 +1,113 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background-color: rgb(189, 201, 216);
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+  background-color: rgb(101, 143, 211);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar>h1{
+  padding-left: 5em;
+}
+
+.navbar--right{
+  display: flex;
+  padding-right: 3em;
+}
+
+.navbar--right>h2{
+  padding: 5px;
+  font-family: serif;
+  font-weight: 300;
+  font-size: 15px;
+}
+.login--container{
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+.login>h2{
+  color: black;
+}
+
+.login>input{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+}
+.login--bottom{
+  display: flex;
+}
+
+.submit--button{
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(68, 89, 190);
+  border: none;   
+  cursor: pointer; 
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
+.products--card {
+  width: 30vh;
+  font-size: 12px;
+  flex:auto;       
+  display: flex;          
+  flex-direction: column; 
+  background-color: white;
+}
+
+.card--image {
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+.products--card>p{
+  padding: 10px;
+}
+.card--rating{
+  width: 30px;
+  background-color: green;
+}
+
+.products--bottom{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.products--bottom>img{
+  width: 20px;
+}
